@@ -36,8 +36,6 @@ nav ul li a {
 }
 
 @media (max-width: 768px) {
-    
-
     nav ul li {
         font-size: medium;
     }
@@ -168,6 +166,137 @@ nav ul li a {
         font-size: 16px;
     }
 }
+
+.equipe-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.equipe-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.equipe-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.equipe-card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.equipe-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.equipe-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.equipe-card p {
+    font-size: 1em;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .equipe-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .equipe-card {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .equipe-card {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
+
+.contato-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.contato-section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-info {
+    margin-bottom: 20px;
+}
+
+.contato-info p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.contato-info a {
+    color: #2e7d32;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contato-info a:hover {
+    color: #1b5e20;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-media a {
+    font-size: 2em;
+    color: #2e7d32;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #1b5e20;
+}
+
+@media (max-width: 768px) {
+    .contato-section h2 {
+        font-size: 1.5em;
+    }
+
+    .contato-info p {
+        font-size: 1em;
+    }
+
+    .social-media a {
+        font-size: 1.5em;
+    }
+}
+
 
 footer {
     background-color: #2e7d32;
