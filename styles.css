@@ -6,17 +6,29 @@ body {
 }
 
 nav {
-    background-color: #2e7d32;
+    background-color: white;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+nav #logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+nav h1 {
+    margin-left: 20px;
+    color: #1b5e20;
+}
+
 nav .logo {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
+    height: 64px;
+    width: 64px;
 }
 
 nav ul {
@@ -31,8 +43,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: green;
+    transition: ease-in;
 }
 
 @media (max-width: 768px) {
