@@ -13,7 +13,7 @@ nav {
     align-items: center;
 }
 
-nav #logo-container{
+nav #logo-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -24,11 +24,12 @@ nav #logo-container{
 nav h1 {
     margin-left: 20px;
     color: #1b5e20;
+    font-size: medium;
 }
 
 nav .logo {
-    height: 48px;
-    width: 48px;
+    height: 72px;
+    width: 72px;
 }
 
 nav ul {
@@ -252,6 +253,11 @@ nav ul li a:hover {
     padding: 40px 20px;
     text-align: center;
     background-color: #f1f1f1;
+}
+
+.contato-section img {
+    height: 200px;
+    width: 200px;
 }
 
 .contato-section h2 {
